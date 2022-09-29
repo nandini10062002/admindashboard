@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport"content="width=device-width,initial-scale=1.0">
+        <title>Admin Dashboard</title>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+        rel="stylesheet">
+        <link rel="stylesheet"href="assets/css/styles.css">
+        
+    </head>
+    <body>
+        <div class="dashboard"></div>
+        <section class="navigation">
+            <img src="assets/img/company logo.png"alt="Company Logo">
+            <div>
+                <span class="material-icons-outlined">dashboard</span>
+                <span class="material-icons-outlined">account_circle</span>
+                <span class="material-icons-outlined">analytics</span>
+                <span class="material-icons-outlined">settings</span>
+            </div>
+        </section>
+        <section class="main">
+            <form action="">
+                <span class="material-icons-outlined">search</span>
+                <input type="text" name="search" id="search" placeholder="Heyy,Search Here!">
+                
+            </form>
+            <div class="notification">
+                <span class="material-icons-outlined">notifications</span>
+                <span class="material-icons-outlined">edit</span>
+            </div>
+            <div class="title">
+                <h1>Status Of Leaves</h1>
+                <form action="#">
+                    <label for="Recent Leave">Sort by</label>
+                    <select name="leaves" id="leaves">
+                        <option value="ongoing">Ongoing Leave</option>
+                        <option value="recent">Recent Leaves</option>
+                        <option value="type">Type Of Leaves</option>
+                        <option value="date">Date of Leaves</option>
+                        <option value="duration">Duration Of Leaves</option>
+                        <option value="period">Period Of Leaves</option>
+                    </select>
+                </form>
+            </div>
+            <div class="Leaves"><!--Leave lists-->
+                <div class="leave">
+                    <div class="types">
+                        <h2>Total Leaves</h2>
+                        <p>Leaves upto Today</p>
+                    </div>
+
+                </div>
+            </div><!--Leave lists end-->
+              
+        </section>
+        <section class="secondary">
+
+        </section>
+       
+    </body>
+</html>
